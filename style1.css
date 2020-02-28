@@ -1,0 +1,158 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)), url(desk.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+
+}
+#main h1{
+	list-style-type: none;
+	font-size: 15px;
+	margin-left: 20px;
+	color: brown;
+	padding-top: 5px;
+}
+#main h1:hover {
+	color: yellow;
+}
+#main hr{
+	color: black;
+	margin-top: 10px;
+	border: 2px dashed brown;
+	border-radius:50% ;
+}
+ul li .utama{
+	list-style-type: none;
+	float: left;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	font-weight: bold;
+	margin-top: 10px;
+ }
+ ul li{
+ 	display: inline-block;
+ }
+ ul li a{
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	margin-right: 50px;
+ 	color: white;
+ 	padding: 0px 20px;
+ 	border: 3px solid transparent;
+ }
+ ul li a:hover {
+ 	background-color: yellow;
+ 	color: brown;
+ }
+ ul li.active a{
+ 	background-color: yellow;
+ 	color: brown
+ }
+ #main{
+ 	max-width: 1100px;
+ 	margin:auto;
+ 	min-width: 400px;
+ }
+.container h1{
+    text-align: center;
+    margin-top: 40px;
+}
+ .container p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    color: white;
+    font-weight: bold;
+    position: static;
+    margin-left: -60px;
+}
+ .container .hubungi{
+     margin-left: 80px;
+    float: left;
+	text-align: center;
+    padding: 50px;
+    width: 35%;
+    margin-top: -60px;
+ }
+ .container .hubungi .satu li{
+     padding: 20px;
+     list-style-type: none;
+     text-align: justify;
+     font-size: 30px;
+ }
+ .container .hubungi .satu input{
+     padding: 5px;
+     height: 25px;
+     width: 250px;
+ }
+ .container .hubungi .satu textarea{
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+}
+button{
+    padding: 15px;
+    width: 80px;
+    background-color: yellow;
+    border: none;
+    margin-top: -20px;
+    position: static;
+    border-radius: 20%;
+}
+button:hover{
+    padding: 15px;
+    width: 80px;
+    background-color: yellow;
+    color: white;
+    background-color: orange;
+}
+.container .hubungi label:hover{
+    color: rgb(252, 218, 156);
+    font-size: 36px;
+}
+.container .hubungi input:hover{
+    padding: 30px;
+}
+.container .hubungi textarea:hover{
+    padding: 30px;
+}
+.container .hubungi .dua li{
+    padding: 20px;
+    list-style-type: none;
+    text-align: justify;
+    font-size: 30px;
+    border: orange;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.container .hubungi .dua a{
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+    list-style-type: none;
+    text-decoration: none;
+    position: static;
+    margin-left:70px;
+    color: black;
+}
+.container .hubungi .dua a:hover{
+    color: chocolate;
+    font-size: 40px;
+}
+footer{
+    padding: 15px;
+    background: #eaeaea;
+    color: brown;
+    font-weight: bold;
+}
